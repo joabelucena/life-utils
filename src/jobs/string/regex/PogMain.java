@@ -27,7 +27,8 @@ public class PogMain {
 	}
 	
 	public static void lal(String a) {
-		System.out.println(a.replaceAll(regexV, "IIF($1.Quality < 192, 0, $0)"));
+//		System.out.println(a.replaceAll(regexV, "IIF($1.Quality < 192, 0, $0)"));
+		System.out.println(a);
 	}
 	
 	public static List<String> getMatches(String regex, String data, int group) {
